@@ -1,0 +1,33 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  margin-bottom: 10px;
+}
+
+.inputContainer label {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.inputContainer input {
+  padding: 0.85rem 0.625rem;
+  border-radius: 3px;
+  border: transparent;
+  border: 2px solid var(--fields-bg);
+  background-color: var(--fields-bg);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+.inputContainer input:focus {
+  border-color: var(--accent-color);
+  background-color: white;
+}
+
+.feedBackTxt {
+  color: var(--accent-color);
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin: 3px 0;
+}

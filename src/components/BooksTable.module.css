@@ -1,0 +1,49 @@
+.tableContainer {
+  overflow: scroll;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.tableHeader {
+  background-color: var(--fields-bg);
+}
+.action {
+  padding: 8px;
+  font-weight: 600;
+  color: white;
+  border: transparent;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.action:hover {
+  opacity: 0.9;
+}
+.editAction {
+  background-color: var(--primary-color);
+  margin-right: 4px;
+}
+.deleteAction {
+  background-color: var(--accent-color);
+}
+
+.feedBackContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--accent-color);
+  font-weight: 700;
+  margin-top: 2rem;
+}

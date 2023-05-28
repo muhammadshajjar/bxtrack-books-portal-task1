@@ -21,7 +21,7 @@ To run this project, you will need to follow below steps
 
 ## Demo
 
-Live at : ![Click here](https://books-portal-98d4b.web.app/)
+Live at : https://books-portal-98d4b.web.app/
 
 ## Screenshot
 
